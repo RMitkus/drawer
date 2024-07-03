@@ -1,0 +1,27 @@
+{
+  "name": "drawer",
+  "version": "0.0.1",
+  "description": "drawer inventory",
+  "main": "dist/app.js",
+  "scripts": {
+    "watch": "tsc-watch --noClear -p ./tsconfig.json --onSuccess \"node ./dist/app.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rytis Mitkus",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "http-errors": "^2.0.0",
+    "mysql2": "^3.10.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.9",
+    "ts-node": "^10.9.2",
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.5.3"
+  }
+}
